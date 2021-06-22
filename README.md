@@ -13,7 +13,7 @@ INFO] --- maven-dependency-plugin:3.2.0:analyze-only (basepom.default) @ testcas
 [WARNING]    com.fasterxml.jackson.core:jackson-databind:jar:2.12.2:compile
 ```
 
-- uncomment the `<properties>` block in the POM.
+- comment the `<properties>` block in the POM.
 - run `mvn clean install`
 
 ==> using dependency plugin 3.1.2; succeeds
